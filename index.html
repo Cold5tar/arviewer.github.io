@@ -4,17 +4,22 @@
 <head>
   <meta charset="utf-8">
 
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
+  <title>viewer test</title>
+  <meta name="description" content="viewer test">
   <meta name="author" content="SitePoint">
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="css/style.css">
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
   <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+  <link rel="alternate" href="https://developer.apple.com/augmented-reality/quick-look/" hreflang="en">
 
 </head>
 
 <body>
+<div class="viever">
+<a href="lib/watch.usdz" rel="ar">
  <model-viewer ar alt="A 3D model of an astronaut." src="lib/watch.glb" auto-rotate camera-controls></model-viewer>
+ </a>
+</div>
 </body>
 </html>
